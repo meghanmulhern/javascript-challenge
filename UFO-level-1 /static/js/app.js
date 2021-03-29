@@ -16,7 +16,7 @@ function UFOsighting(data){
         //loop through each data row and adds a value
         //to each table cell ("tc")
         Object.values(dataRow).forEach((val)=> {
-            let cell = row.append("tc");
+            let cell = row.append("td");
                 cell.text(val);
             }
         );
